@@ -1,1 +1,8 @@
 https://www.apple.com/itunes/download/win64
+
+
+Apple Mobile Device
+https://www.catalog.update.microsoft.com/Search.aspx?q=Apple%20Mobile%20Device
+https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2023/10/5fb262ea-d52d-46a7-9361-f3260ba57a1a_3e8075a4dded0a795131f82285e2f1a06525ebc2.cab
+
+
