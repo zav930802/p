@@ -1,0 +1,7 @@
+git init
+git add -f .
+git commit -m 1
+pause
+git add -f .
+git diff --cached > c:\1.patch
+
