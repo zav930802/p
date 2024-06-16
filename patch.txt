@@ -5,3 +5,6 @@ pause
 git add -f .
 git diff --cached > c:\1.patch
 
+
+git diff --cached --name-only
+
