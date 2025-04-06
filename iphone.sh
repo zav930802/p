@@ -11,7 +11,10 @@ libudev-dev \
 pkg-config \
 libcurl4-openssl-dev \
 libssl-dev \
-libzip-dev
+libzip-dev \
+g++ \
+make
+
 
 if [ ! -d '/root/tmp' ]; then
     mkdir -p '/root/tmp' || { echo "error${LINENO}"; exit 1; }
@@ -110,7 +113,7 @@ fi
 if [ ! -f '/usr/local/sbin/usbmuxd' ]; then
     if [ ! -d '/root/tmp/usbmuxd_src' ]; then
         cd '/root/tmp' || { echo "error${LINENO}"; exit 1; }
-        git clone 'https://github.com/usbmuxd/usbmuxd.git' || { echo "error${LINENO}"; exit 1; }
+        git clone 'https://github.com/libimobiledevice/usbmuxd.git' || { echo "error${LINENO}"; exit 1; }
         cd '/root/tmp/usbmuxd' || { echo "error${LINENO}"; exit 1; }
         git checkout '523f7004dce885fe38b4f80e34a8f76dc8ea98b5' || { echo "error${LINENO}"; exit 1; }
         cd '/root/tmp' || { echo "error${LINENO}"; exit 1; }
